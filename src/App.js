@@ -5,6 +5,7 @@ import Footer from './Footer'
 import SearchPage from './SearchPage'
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HOME1_URL, HOME2_URL, SEARCH_KW_URL } from './constants';
 
 function App() {
   return (
@@ -13,11 +14,14 @@ function App() {
         <Header />
 
         <Switch>
-          <Route path="/search/:kw">
-            <SearchPage />
-          </Route>
-          <Route exact path="/">
+          <Route exact path={HOME1_URL}>
             <Home />
+          </Route>
+          <Route path={HOME2_URL}>
+            <Home />
+          </Route>
+          <Route path={SEARCH_KW_URL}>
+            <SearchPage />
           </Route>
         </Switch>
 

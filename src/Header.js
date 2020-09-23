@@ -6,13 +6,14 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
+import { SEARCH_URL } from './constants';
 
 function Header() {
     const history = useHistory();
     const [input, setInput] = useState('');
     const handleSubmit = e => {
         e.preventDefault();
-        history.push(`/search/${input}`)
+        history.push(`${SEARCH_URL}/${input}`)
     };
     return (
         <div className='header'>

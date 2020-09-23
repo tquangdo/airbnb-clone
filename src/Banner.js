@@ -3,6 +3,7 @@ import './Banner.css'
 import { Button } from "@material-ui/core";
 import Search from './Search';
 import { useHistory } from "react-router-dom";
+import { SEARCH_URL } from './constants';
 
 function Banner() {
     const history = useHistory();
@@ -22,7 +23,7 @@ function Banner() {
                 <h5>
                     Plan a different kind of getaway to uncover the hidden gems near you.
                 </h5>
-                <Button onClick={() => history.push('/search/nearby')} variant='outlined'>Explore Nearby</Button>
+                <Button onClick={() => history.push(`${SEARCH_URL}/nearby`)} variant='outlined'>Explore Nearby</Button>
             </div>
         </div>
     )

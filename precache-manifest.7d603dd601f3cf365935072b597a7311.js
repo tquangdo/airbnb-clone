@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4c83e3fdfbe3cd78860851448aa2bad",
+    "revision": "ea70b2489fa9bfd822b7792bb5743e17",
     "url": "/airbnb-clone/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airbnb-clone/static/css/2.a3735241.chunk.css"
   },
   {
-    "revision": "85d7004e4f04eb85143a",
+    "revision": "4320f6bdf6624f864424",
     "url": "/airbnb-clone/static/css/main.417e400b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airbnb-clone/static/js/2.2b695b54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85d7004e4f04eb85143a",
-    "url": "/airbnb-clone/static/js/main.fb1fa310.chunk.js"
+    "revision": "4320f6bdf6624f864424",
+    "url": "/airbnb-clone/static/js/main.7acbcbc5.chunk.js"
   },
   {
     "revision": "f358a9c4d5787a3a04f2",
